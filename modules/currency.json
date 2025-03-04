@@ -5,8 +5,8 @@
     {
       "type": "includeExcludeList",
       "description": "Configure which currency items to show or hide",
-      "macroName": "CURRENCY_FILTER",
       "label": "Currency Filter",
+      "macroName": "CURRENCY_FILTER",
       "group": "Currency Settings",
       "defaults": {
         "includes": ["Gold coin", "Platinum token", "Blood money"],
