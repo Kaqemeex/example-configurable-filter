@@ -1,0 +1,21 @@
+{
+  "type": "filter",
+  "name": "My Filter",
+  "description": "A descriptive description of the filter",
+  "modules": [
+    {
+      "name": "Currency Module",
+      "moduleJson": {
+        "$ref": "../modules/currency.json"
+      },
+      "moduleRs2fUrl": "https://example.com/currency-module.rs2f"
+    },
+    {
+      "name": "Equipment Module",
+      "moduleJson": {
+        "$ref": "../modules/equipment.json"
+      },
+      "moduleRs2fUrl": "https://example.com/equipment-module.rs2f"
+    }
+  ]
+} 

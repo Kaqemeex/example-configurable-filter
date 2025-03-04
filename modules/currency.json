@@ -1,0 +1,45 @@
+{
+  "type": "module",
+  "name": "Currency Items",
+  "inputs": [
+    {
+      "type": "includeExcludeList",
+      "description": "Configure which currency items to show or hide",
+      "macroName": "CURRENCY_FILTER",
+      "label": "Currency Filter",
+      "group": "Currency Settings",
+      "defaults": {
+        "includes": ["Gold coin", "Platinum token", "Blood money"],
+        "excludes": ["Copper coin"]
+      }
+    },
+    {
+      "type": "style",
+      "description": "Configure how high-value currency items appear",
+      "macroName": "HIGH_VALUE_STYLE",
+      "label": "High Value Currency Style",
+      "group": "Appearance",
+      "defaults": {
+        "textColor": "#FFFFFF",
+        "backgroundColor": "#FF4500",
+        "borderColor": "#FFD700",
+        "showLootbeam": true,
+        "showValue": true,
+        "textAccent": "outline",
+        "textAccentColor": "#000000",
+        "lootbeamColor": "#FFD700",
+        "fontType": "larger",
+        "highlightTile": true,
+        "notify": true
+      }
+    },
+    {
+      "type": "value",
+      "description": "Minimum value in gold coins for items to be highlighted",
+      "macroName": "MIN_VALUE_THRESHOLD",
+      "label": "Minimum Value Threshold",
+      "group": "Value Settings",
+      "defaults": 100000
+    }
+  ]
+} 
