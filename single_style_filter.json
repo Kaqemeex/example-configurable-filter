@@ -13,12 +13,13 @@
           {
             "type": "style",
             "name": "Style Input Test",
+            "macroName": "STYLE_INPUT_TEST",
             "description": "A style input with no default values",
             "default": {}
           }
         ]
       },
-      "moduleRs2fText": ""
+      "moduleRs2fText": "#define STYLE_INPUT_TEST nop;"
     }
   ]
 }
