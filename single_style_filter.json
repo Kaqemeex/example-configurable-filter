@@ -1,0 +1,24 @@
+{
+  "type": "filter",
+  "name": "My Filter",
+  "description": "A descriptive description of the filter",
+  "modules": [
+    {
+      "name": "Style Module",
+      "moduleJson": {
+        "type": "module",
+        "name": "Style Input Test",
+        "description": "A medium size description of the module",
+        "inputs": [
+          {
+            "type": "style",
+            "name": "Style Input Test",
+            "description": "A style input with no default values",
+            "default": {}
+          }
+        ]
+      },
+      "moduleRs2fText": ""
+    }
+  ]
+}
