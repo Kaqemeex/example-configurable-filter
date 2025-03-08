@@ -1,0 +1,39 @@
+{
+  "type": "filter",
+  "name": "Style Input Test",
+  "description": "A descriptive description of the filter",
+  "modules": [
+    {
+      "name": "Style Module",
+      "moduleJson": {
+        "type": "module",
+        "name": "Non Style Non Dropdown Inputs",
+        "description": "Non Style Non Dropdown Inputs",
+        "inputs": [
+          {
+            "type": "number",
+            "name": "Number Input",
+            "macroName": "NUMBER_INPUT",
+            "description": "A number input with no default values",
+            "default": 0
+          },
+          {
+            "type": "boolean",
+            "name": "Boolean Input",
+            "macroName": "BOOLEAN_INPUT",
+            "description": "A boolean input with no default values",
+            "default": false
+          },
+          {
+            "type": "string",
+            "name": "String Input",
+            "macroName": "STRING_INPUT",
+            "description": "A string input with no default values",
+            "default": ""
+          }
+        ]
+      },
+      "moduleRs2fText": "#define STYLE_INPUT_TEST nop;"
+    }
+  ]
+}

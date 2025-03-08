@@ -1,6 +1,6 @@
 {
   "type": "filter",
-  "name": "My Filter",
+  "name": "Style Input Test",
   "description": "A descriptive description of the filter",
   "modules": [
     {
