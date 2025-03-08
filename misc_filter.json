@@ -12,21 +12,21 @@
         "inputs": [
           {
             "type": "number",
-            "name": "Number Input",
+            "label": "Number Input",
             "macroName": "NUMBER_INPUT",
             "description": "A number input with no default values",
             "default": 0
           },
           {
             "type": "boolean",
-            "name": "Boolean Input",
+            "label": "Boolean Input",
             "macroName": "BOOLEAN_INPUT",
             "description": "A boolean input with no default values",
             "default": false
           },
           {
             "type": "string",
-            "name": "String Input",
+            "label": "String Input",
             "macroName": "STRING_INPUT",
             "description": "A string input with no default values",
             "default": ""
